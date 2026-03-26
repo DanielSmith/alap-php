@@ -1,6 +1,6 @@
 # Alap Expression Parser — PHP
 
-Server-side PHP port of the Alap expression parser (`src/core/ExpressionParser.ts`). Use this to resolve Alap expressions in PHP servers without a Node.js sidecar.
+[Alap](https://github.com/DanielSmith/alap) is a JavaScript library that turns links into dynamic menus with multiple curated targets. This is the server-side PHP port of the expression parser, enabling expression resolution in PHP servers without a Node.js sidecar.
 
 ## What's included
 
@@ -63,9 +63,9 @@ $merged = ExpressionParser::mergeConfigs($config1, $config2);
 Copy `ExpressionParser.php` into your project (update the namespace as needed), or install via Composer:
 
 ```bash
-composer require alap/core
+composer require danielsmith/alap
 ```
 
 ## Used by
 
-- [laravel-sqlite](../../../examples/servers/laravel-sqlite/) server
+- [laravel-sqlite](https://github.com/DanielSmith/alap/tree/main/examples/servers/laravel-sqlite) server
